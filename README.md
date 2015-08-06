@@ -2,7 +2,7 @@
 
 Boilerplate for landing page
 
-Supported commands
+Supported commands:
 - `$ grunt build` build development version
 - `$ grunt compile` compile development version
 - `$ grunt default` build development version and compile it to production version
