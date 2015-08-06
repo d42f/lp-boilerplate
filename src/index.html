@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <title>Boilerplate for landing page</title>
+
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>?<%= timestamp %>" /><% }); %>
+
+    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>?<%= timestamp %>"></script><% }); %>
+
+    <% if (grunt.task.current.nameArgs == "index:build") { %><script type="text/javascript">
+      ;(function () {
+        var s = document.createElement('script');
+        s.src = window.location.protocol + '//' + window.location.hostname + ':35729/' + 'livereload.js';
+        document.head.appendChild(s);
+      })();
+    </script><% } %>
+  </head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "ng-cloudike",
+  "version": "0.0.1",
+  "devDependencies": {
+    "font-awesome": "~4.4",
+    "modernizr": "*",
+    "underscore": "*",
+    "jquery": "~1.11",
+    "bootstrap": "~3.3"
+  },
+  "dependencies": {}
+}

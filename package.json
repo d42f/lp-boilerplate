@@ -1,0 +1,32 @@
+{
+  "author": "ASD Tech",
+  "name": "lp-boilerplate",
+  "version": "0.0.1",
+  "homepage": "http://cloudike.com",
+  "licenses": {
+    "type": "MIT",
+    "url": "http://cdn.spout.org/license/mit.txt"
+  },
+  "bugs": "http://cloudike.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:d42f/lp-boilerplate.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "shelljs": "*",
+    "request": "*",
+    "grunt": "~0.4",
+    "grunt-bump": "0.0.6",
+    "grunt-contrib-connect": "^0.7.1",
+    "grunt-connect-rewrite": "^0.2.1",
+    "grunt-contrib-clean": "^0.4.1",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-jshint": "^0.4.3",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-watch": "^0.4.4"
+  }
+}
